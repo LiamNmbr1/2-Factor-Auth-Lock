@@ -2,8 +2,8 @@
 A lock that uses multi pin per stack system to prevent picking, this works by surrounding one specific pin per pin stack with others of varying sizes. When someone tries to pick the lock, it will e "picked" (to the first stage), then stop moving because those specific pins need to be at a specific height (in the secondary rotator, they must be 4mm tall pins). This creates variance and adds a guessing factor, turning a normal key lock into a picking method that works similar to guessing every possible combo on a keypad, removing intuition and requiring the lock picker to take a long trial and error method. More pins can be added per stack and more stacks can be added in order to make the lock harder to pick, to a point where it might as well be broken. This should be considered more difficult than guessing a keypad as the "pressing a button" requires you to set each pin at a different height. As picking is possible it is not intuitive and hopefully require pure luck. If you find a fault in this design (other than the mechanism keeping the shackle locked, there are already methods to prevent blunt force on the lock from opening it which can be implemented here) if you have issues or think you picked it please reach out at my website: https://liamnmbr1.github.io/
 
 ## Bill of Materials
-| .--- | .--- | .--- |
 | Part Name | # of Pieces | Purpose |
+| :--- | :--- | :--- |
 | Casing | x1 | this is the main casing of the lock everything fits into/attaches to |
 | primary_rotator | x1 | this is the back of the primary rotator(its main component), the cylinder that holds pins and fits into the secondary rotator |
 | primary_piece_rotator | x4 | these attach to each other and the primary_rotator creating a chain, each one has a slot to hold a pin |
